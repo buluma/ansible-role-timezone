@@ -4,7 +4,7 @@ Ansible Role for Timezone Management
 
 |GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
 |------|------|-------|---------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-timezone/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-timezone/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-timezone/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-timezone)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/buluma/timezone)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/buluma/timezone)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-timezone.svg)](https://github.com/buluma/ansible-role-timezone/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-timezone.svg)](https://github.com/buluma/ansible-role-timezone/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-timezone.svg)](https://github.com/buluma/ansible-role-timezone/pulls/)|
+|[![github](https://github.com/buluma/ansible-role-timezone/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-timezone/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-timezone/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-timezone)|[![quality](https://img.shields.io/ansible/quality/58935)](https://galaxy.ansible.com/buluma/timezone)|[![downloads](https://img.shields.io/ansible/role/d/58935)](https://galaxy.ansible.com/buluma/timezone)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-timezone.svg)](https://github.com/buluma/ansible-role-timezone/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-timezone.svg)](https://github.com/buluma/ansible-role-timezone/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-timezone.svg)](https://github.com/buluma/ansible-role-timezone/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -36,30 +36,6 @@ The machine needs to be prepared. In CI this is done using `molecule/default/pre
           --username={{ lookup('env', 'REDHAT_USERNAME') }} \
           --password={{ lookup('env', 'REDHAT_PASSWORD') }} \
           --auto-attach
-      changed_when: false
-      failed_when: false
-
-    - name: debian | apt-get install python3
-      ansible.builtin.raw: |
-        set -eu
-        apt-get update
-        DEBIAN_FRONTEND=noninteractive apt-get install -y python3
-      changed_when: false
-      failed_when: false
-
-    - name: redhat | yum install python3
-      ansible.builtin.raw: |
-        set -eu
-        yum makecache
-        yum install -y python3
-      changed_when: false
-      failed_when: false
-
-    - name: suse | zypper install python3
-      ansible.builtin.raw: |
-        set -eu
-        zypper -n --gpg-auto-import-keys refresh
-        zypper -n install -y python3
       changed_when: false
       failed_when: false
 
@@ -167,6 +143,13 @@ timezone: "Africa/Nairobi"
 
 - pip packages listed in [requirements.txt](https://github.com/buluma/ansible-role-timezone/blob/main/requirements.txt).
 
+## [Status of used roles](#status-of-requirements)
+
+The following roles are used to prepare a system. You can prepare your system in another way.
+
+| Requirement | GitHub | GitLab |
+|-------------|--------|--------|
+|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Build Status GitLab ](https://gitlab.com/buluma/ansible-role-bootstrap/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-bootstrap)|
 
 ## [Context](#context)
 
