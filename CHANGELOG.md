@@ -2,11 +2,19 @@
 
 ## [Unreleased](https://github.com/buluma/ansible-role-timezone/tree/HEAD)
 
-[Full Changelog](https://github.com/buluma/ansible-role-timezone/compare/0.1.0...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-timezone/compare/0.1.1...HEAD)
+
+**Closed issues:**
+
+- Add to tracker [\#2](https://github.com/buluma/ansible-role-timezone/issues/2)
 
 **Merged pull requests:**
 
 - Testing [\#1](https://github.com/buluma/ansible-role-timezone/pull/1) ([buluma](https://github.com/buluma))
+
+## [0.1.1](https://github.com/buluma/ansible-role-timezone/tree/0.1.1) (2022-04-25)
+
+[Full Changelog](https://github.com/buluma/ansible-role-timezone/compare/0.1.0...0.1.1)
 
 ## [0.1.0](https://github.com/buluma/ansible-role-timezone/tree/0.1.0) (2022-04-23)
 
