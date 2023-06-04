@@ -1,6 +1,6 @@
 ---
 
-- name: redhat | yum install
+- name: redhat | Yum install
   ansible.builtin.yum:
     name: "{{ item.name }}"
     state: "{{ item.state }}"
