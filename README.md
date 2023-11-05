@@ -2,9 +2,9 @@
 
 Ansible Role for Timezone Management
 
-|GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
-|------|------|-------|---------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-timezone/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-timezone/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-timezone/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-timezone)|[![quality](https://img.shields.io/ansible/quality/58935)](https://galaxy.ansible.com/buluma/timezone)|[![downloads](https://img.shields.io/ansible/role/d/58935)](https://galaxy.ansible.com/buluma/timezone)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-timezone.svg)](https://github.com/buluma/ansible-role-timezone/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-timezone.svg)](https://github.com/buluma/ansible-role-timezone/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-timezone.svg)](https://github.com/buluma/ansible-role-timezone/pulls/)|
+|GitHub|GitLab|Downloads|Version|Issues|Pull Requests|
+|------|------|-------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-timezone/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-timezone/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-timezone/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-timezone)|[![downloads](https://img.shields.io/ansible/role/d/4860)](https://galaxy.ansible.com/buluma/timezone)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-timezone.svg)](https://github.com/buluma/ansible-role-timezone/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-timezone.svg)](https://github.com/buluma/ansible-role-timezone/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-timezone.svg)](https://github.com/buluma/ansible-role-timezone/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
