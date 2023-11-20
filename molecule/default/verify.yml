@@ -3,14 +3,14 @@
   remote_user: root
   become: true
   tasks:
-    - name: check /etc/localtime
+    - name: Check /etc/localtime
       ansible.builtin.file:
         src: "/usr/share/zoneinfo/Etc/UTC"
         dest: "/etc/localtime"
         mode: "0644"
         state: "link"
 
-    - name: date
+    - name: Date
       ansible.builtin.command: date
       register: result
       changed_when: result is not succeeded
