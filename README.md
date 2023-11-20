@@ -26,7 +26,8 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
 ```yaml
 ---
 
-- hosts: all
+- name: Prepare
+  hosts: all
   remote_user: root
   become: true
   gather_facts: false
@@ -41,7 +42,8 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
       changed_when: false
       failed_when: false
 
-- hosts: all
+- name: Prepare all
+  hosts: all
   remote_user: root
   become: true
   tasks:
