@@ -32,7 +32,7 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
   become: true
   gather_facts: false
   tasks:
-    - name: redhat | Subscription-manager register
+    - name: Redhat | Subscription-manager register
       ansible.builtin.raw: |
         set -eu
         subscription-manager register \
@@ -78,7 +78,7 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
       changed_when: false
       failed_when: false
 
-    - name: debian | Apt-get install *.deb
+    - name: Debian | Apt-get install *.deb
       ansible.builtin.raw: |
         set -eu
         DEBIAN_FRONTEND=noninteractive apt-get install -y bzip2 ca-certificates curl gcc gnupg gzip hostname iproute2 passwd procps python3 python3-apt python3-jmespath python3-lxml python3-pip python3-setuptools python3-venv python3-virtualenv python3-wheel rsync sudo tar unzip util-linux xz-utils zip
@@ -86,7 +86,7 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
       changed_when: false
       failed_when: false
 
-    - name: fedora | Yum install *.rpm
+    - name: Fedora | Yum install *.rpm
       ansible.builtin.raw: |
         set -eu
         yum install -y bzip2 ca-certificates curl gcc gnupg2 gzip hostname iproute procps-ng python3 python3-dnf-plugin-versionlock python3-jmespath python3-libselinux python3-lxml python3-pip python3-setuptools python3-virtualenv python3-wheel rsync shadow-utils sudo tar unzip util-linux xz yum-utils zip
@@ -94,7 +94,7 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
       changed_when: false
       failed_when: false
 
-    - name: redhat-9 | Yum install *.rpm
+    - name: Redhat-9 | Yum install *.rpm
       ansible.builtin.raw: |
         set -eu
         yum-config-manager --enable crb || echo $?
@@ -105,7 +105,7 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
       changed_when: false
       failed_when: false
 
-    - name: redhat-8 | Yum install *.rpm
+    - name: Redhat-8 | Yum install *.rpm
       ansible.builtin.raw: |
         set -eu
         yum install -y http://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
@@ -114,7 +114,7 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
       changed_when: false
       failed_when: false
 
-    - name: redhat-7 | Yum install *.rpm
+    - name: Redhat-7 | Yum install *.rpm
       ansible.builtin.raw: |
         set -eu
         subscription-manager repos --enable=rhel-7-server-optional-rpms || echo $?
@@ -124,7 +124,7 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
       changed_when: false
       failed_when: false
 
-    - name: suse | Zypper -n install *.rpm
+    - name: Suse | Zypper -n install *.rpm
       ansible.builtin.raw: |
         set -eu
         zypper -n install -y bzip2 ca-certificates curl gcc gpg2 gzip hostname iproute2 procps python3 python3-jmespath python3-lxml python3-pip python3-setuptools python3-virtualenv python3-wheel rsync shadow sudo tar unzip util-linux xz zip
