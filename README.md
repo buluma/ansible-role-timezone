@@ -1,10 +1,10 @@
-# [Ansible role timezone](#timezone)
+# Ansible role [timezone](https://galaxy.ansible.com/ui/standalone/roles/buluma/timezone/documentation)
 
 Ansible Role for Timezone Management
 
-|GitHub|Version|Issues|Pull Requests|
-|------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-timezone/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-timezone/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-timezone.svg)](https://github.com/buluma/ansible-role-timezone/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-timezone.svg)](https://github.com/buluma/ansible-role-timezone/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-timezone.svg)](https://github.com/buluma/ansible-role-timezone/pulls/)|
+|GitHub|Version|Issues|Pull Requests|Downloads|
+|------|-------|------|-------------|---------|
+|[![github](https://github.com/buluma/ansible-role-timezone/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-timezone/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-timezone.svg)](https://github.com/buluma/ansible-role-timezone/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-timezone.svg)](https://github.com/buluma/ansible-role-timezone/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-timezone.svg)](https://github.com/buluma/ansible-role-timezone/pulls/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/timezone)](https://galaxy.ansible.com/ui/standalone/roles/buluma/timezone/documentation)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -195,9 +195,7 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 
 ## [Author Information](#author-information)
 
-[Michael Buluma](https://buluma.github.io/)
+[Shadow Walker](https://buluma.github.io/)
 
-
-### [Special Thanks](#special-thanks)
 
 Template inspired by [Robert de Bock](https://github.com/robertdebock)
