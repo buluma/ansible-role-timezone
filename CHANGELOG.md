@@ -10,6 +10,11 @@
 - Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#11](https://github.com/buluma/ansible-role-timezone/issues/11)
 - Update action [\#10](https://github.com/buluma/ansible-role-timezone/issues/10)
 
+**Merged pull requests:**
+
+- Bump actions/checkout from 3 to 4 [\#17](https://github.com/buluma/ansible-role-timezone/pull/17) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump buluma/gitlab-mirror-ci-action from 1.0.6 to 1.0.7 [\#16](https://github.com/buluma/ansible-role-timezone/pull/16) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [0.1.2](https://github.com/buluma/ansible-role-timezone/tree/0.1.2) (2022-05-16)
 
 [Full Changelog](https://github.com/buluma/ansible-role-timezone/compare/0.1.1...0.1.2)
