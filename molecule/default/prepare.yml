@@ -3,7 +3,7 @@
 - name: Prepare
   hosts: all
   remote_user: root
-  become: true
+  become: false
   gather_facts: false
   tasks:
     - name: Redhat | Subscription-manager register
