@@ -20,6 +20,7 @@
   hosts: all
   remote_user: root
   become: true
+  gather_facts: false
   tasks:
     - name: CP -rfT /etc/skel /root
       ansible.builtin.raw: |
