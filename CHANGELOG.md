@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-timezone/tree/HEAD)
+## [24.3.31](https://github.com/buluma/ansible-role-timezone/tree/24.3.31) (2024-03-30)
 
-[Full Changelog](https://github.com/buluma/ansible-role-timezone/compare/0.2.0...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-timezone/compare/0.2.0...24.3.31)
 
 **Merged pull requests:**
 
