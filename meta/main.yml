@@ -1,6 +1,7 @@
 ---
 galaxy_info:
   author: 'Michael Buluma'
+  namespace: buluma
   role_name: timezone
   description: 'Ansible Role for Timezone Management'
   license: Apache-2.0
