@@ -1,5 +1,4 @@
 ---
-
 - name: debian | Apt-get install
   ansible.builtin.apt:
     name: "{{ item.name }}"
