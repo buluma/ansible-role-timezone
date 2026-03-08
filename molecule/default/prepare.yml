@@ -6,4 +6,4 @@
   gather_facts: false
 
   roles:
-  - role: buluma.bootstrap
+    - role: buluma.bootstrap
