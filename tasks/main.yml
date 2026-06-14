@@ -39,7 +39,7 @@
       skip: true
 
 - name: Timedatectl set-timezone
-  community.general.system.timezone:
+  community.general.timezone:
     name: "{{ timezone }}"
   changed_when: false
   failed_when: false
